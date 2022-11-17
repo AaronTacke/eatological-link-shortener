@@ -4,6 +4,32 @@
             Eatological
         </title>
         <style>
+body{
+    background-color: #333333;
+}
+
+#grad1 {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16vw;
+}
+
+#grad3 {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6vw;
+}
+
 button {
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
@@ -12,14 +38,14 @@ button {
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 35px;
+  font-size: 4vw;
   font-weight: 800;
   line-height: 16px;
   min-height: 40px;
   outline: 0;
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+  width: 35vw;
+  height: 20vw;
+  margin: 2vw;
   text-align: center;
   text-rendering: geometricprecision;
   text-transform: none;
@@ -100,11 +126,8 @@ button:active {
 
 h1 {
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    margin-top: 20px;
     text-align: center;
-    font-size: 70px;
     font-weight: 600;
-    background-image: linear-gradient(45deg, #5125c8, #ee4b2b);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -112,11 +135,9 @@ h1 {
 
 h2 {
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    margin-top: -30px;
+    margin-top: -150px;
     text-align: center;
-    font-size: 35px;
     font-weight: 500;
-    background-image: linear-gradient(45deg, #6465bc, #c95e87);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -124,8 +145,8 @@ h2 {
         </style>
     </head>
     <body>
-        <h1> Eatological </h1>
-        <h2> Quick access to your favorite links!</h3>
+        <h1 id="grad1"> Eatological </h1>
+        <h2 id="grad3"> Quick access to your favorite links!</h3>
         <table class="center">
             <tr>
                 <td>
